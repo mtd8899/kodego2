@@ -1,0 +1,39 @@
+.flex-container{
+    display: flex;
+}
+
+header{
+    background-color: greenyellow;
+    padding: 40px;
+}
+
+nav{
+    background-color:rgb(128, 128, 247);
+    width: 20%;
+    margin: 4px 0 4px 2px;
+    height: 400px;
+}
+
+aside{
+    background-color: rosybrown;
+    width: 20%;
+    margin: 4px 2px 4px 2px;
+    height: 400px;
+}
+
+#form{
+    background-color: rosybrown;
+    width: 60%;
+    margin: 4px 2px 4px 0;
+    height: 400px;
+    
+}
+
+.column{
+    display: inline;
+}
+
+footer{
+    background-color: greenyellow;
+    padding: 30px;
+}

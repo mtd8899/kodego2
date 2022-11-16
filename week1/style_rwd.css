@@ -1,0 +1,64 @@
+header{
+    /* color: white; */
+    background-color: purple;
+    padding: 4px;
+}
+
+header h3{
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(159, 41, 159);
+    padding: 4px;
+    color: white;
+    
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
+
+.indent{
+    padding-left: 10px;
+}
+
+main{
+    display: inline;
+    height: 80%;
+
+}
+
+p{
+    padding-left: 20px;
+}
+
+section{
+    background-color: blueviolet;
+    width: 75%;
+    display: inline;
+}
+
+article{
+    float: right;
+    width: 25%;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(203, 178, 226);
+    height: 80%;
+}
+
+footer{
+    background-color: rgb(193, 102, 193);
+    padding: 6px;
+    text-align: center;
+    color: white;
+}

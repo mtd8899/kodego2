@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flexbox</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="flex.css">
+    </head>
+    <body>
+        <header>Header</header>
+        <div class="flex-container">
+            <div id="form">
+                <form>
+                    <div class="row">
+                        <div class="column">
+                            <p>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name">
+                            </p>
+                            <p>
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone" name="phone">
+                            </p>
+                            <p>
+                                <label for="date">Email</label>
+                                <input type="email" id="email" name="email">
+                            </p>
+                            <p>
+                                <label for="date">Pickup Date/Time</label>
+                                <input type="date" id="date" name="date">
+                            </p>
+                            <p>
+                                <label for="pplace">Pickup Place</label>
+                                <input type="text" id="pplace" name="pplace">
+                            </p>
+                            <p>
+                                <label for="dplace">Phone</label>
+                                <input type="text" id="dplace" name="dplace">
+                            </p>
+                            <input type="submit" value="Submit Booking">
+                        </div>
+                    
+                        <div class="column">
+                            <p>Which vehicle do you require?</p>
+                            <input type="radio" id="van" name="vehicle" value="van">
+                            <label for="van">Van</label><br>
+                            <input type="radio" id="jeepney" name="vehicle" value="jeepney">
+                            <label for="jeepney">CSS</label><br>
+                            <input type="radio" id="tricycle" name="vehicle" value="tricycle">
+                            <label for="tricycle">Tricycle</label>
+                            
+                            <p>Extras</p>
+                            <input type="checkbox" id="bseat" name="bseat" value="Baby Seat">
+                            <label for="bseat">Baby Seat</label><br>
+                            <input type="checkbox" id="wchair" name="wchair" value="Wheelchair Acces">
+                            <label for="vehicle2">Wheelchair Access</label><br>
+                            <input type="checkbox" id="stip" name="stip" value="Stock Tip">
+                            <label for="stip">Stock Tip</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <aside>Aside</aside>
+            <nav>Nav</nav>
+        </div>
+        <footer>Footer</footer>
+    </body>
+</html>
